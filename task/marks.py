@@ -1,0 +1,8 @@
+marks = float(input("Enter your 10th mark (percentage): "))
+
+if marks >= 80:
+    print("Grade A")
+elif marks >= 60:
+    print("Grade B")
+else:
+    print("Grade C")
